@@ -6,7 +6,7 @@
 			h1.innerHTML=d;
 
 2.一个富豪想存87万,给理财顾问写了87w,请自动生成存储870000的方法,显示在页面id为h2的元素中
-答:var money=parseInt(prompt("存储金额为："));
+答:var money=parseInt(prompt("存储金额："));
 			var h2=document.getElementById("h2");
 			h2.innerHTML="您的存储金额为："+money;
 
