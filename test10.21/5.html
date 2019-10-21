@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<h1 id="h1"></h1>
+		<input type="text" id="in1" placeholder="请输入验证码"/>
+		<button id="btn">点击登入</button>
+		<script>
+			var h1 = document.getElementById('h1');
+			var in1 = document.getElementById('in1');
+			var btn = document.getElementById('btn');
+			btn.onclick = function(){
+				var s1 = in1.value
+				var s2 = s1.toLowerCase()
+				//console.log(s2);
+				h1.innerHTML=s2;
+				
+			}
+		</script>
+	</body>
+</html>
